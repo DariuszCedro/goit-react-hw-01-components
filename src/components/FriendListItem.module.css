@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  border: 2px solid grey;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px red;
+
+  align-items: center;
+}
+.status {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.avatar {
+  margin-left: 20px;
+}
+.name {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.is-offline {
+  composes: status;
+  background-color: red;
+}
